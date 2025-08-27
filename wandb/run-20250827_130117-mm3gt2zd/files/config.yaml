@@ -1,0 +1,104 @@
+_wandb:
+    value:
+        cli_version: 0.21.1
+        e:
+            lv6gwscud0s7he2zj6s115k17agy9tqf:
+                args:
+                    - --train_csv
+                    - D:/ViP-MH/Data/Train_Data/complete_data/DR/reddit_train.csv
+                    - --val_csv
+                    - D:/ViP-MH/Data/Train_Data/complete_data/DR/reddit_valid.csv
+                    - --test_csv
+                    - D:/ViP-MH/Data/Test_Data/test_complete/DR.csv
+                    - --epochs
+                    - "100"
+                    - --batch_size
+                    - "128"
+                    - --lr
+                    - "1e-4"
+                    - --name
+                    - reddit_depression_run
+                    - --save_dir
+                    - ./saved_redditdr/
+                codePath: DR.py
+                codePathLocal: DR.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.6"
+                disk:
+                    /:
+                        total: "293625393152"
+                        used: "106224287744"
+                email: fantomobsant@gmail.com
+                executable: C:\Users\fanto\miniconda3\python.exe
+                git:
+                    commit: 1ae15b67ef3549873371be85c6fa7334fe5fb7e9
+                    remote: https://github.com/praetorian2710/ViP-MH.git
+                gpu: NVIDIA GeForce GTX 1650
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 896
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce GTX 1650
+                      uuid: GPU-19e56e2a-f56e-c4f4-691a-d22292992384
+                host: jotiraditya
+                memory:
+                    total: "16473231360"
+                os: Windows-11-10.0.26100-SP0
+                program: D:\ViP-MH\DR.py
+                python: CPython 3.13.5
+                root: D:\ViP-MH
+                startedAt: "2025-08-27T07:31:17.056779Z"
+                writerId: lv6gwscud0s7he2zj6s115k17agy9tqf
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 13
+            "4": 3.13.5
+            "5": 0.21.1
+            "8":
+                - 3
+            "12": 0.21.1
+            "13": windows-amd64
+batch_size:
+    value: 128
+ckpt_path:
+    value: null
+epochs:
+    value: 100
+lr:
+    value: 0.0001
+max_queries:
+    value: 999
+max_queries_test:
+    value: 50
+mode:
+    value: online
+name:
+    value: reddit_depression_run
+sampling:
+    value: random
+save_dir:
+    value: ./saved_redditdr/
+seed:
+    value: 0
+tail:
+    value: ""
+tau_end:
+    value: 0.2
+tau_start:
+    value: 1
+test_csv:
+    value: D:/ViP-MH/Data/Test_Data/test_complete/DR.csv
+train_csv:
+    value: D:/ViP-MH/Data/Train_Data/complete_data/DR/reddit_train.csv
+val_csv:
+    value: D:/ViP-MH/Data/Train_Data/complete_data/DR/reddit_valid.csv

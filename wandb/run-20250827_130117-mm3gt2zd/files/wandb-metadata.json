@@ -1,0 +1,58 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.13.5",
+  "startedAt":  "2025-08-27T07:31:17.056779Z",
+  "args":  [
+    "--train_csv",
+    "D:/ViP-MH/Data/Train_Data/complete_data/DR/reddit_train.csv",
+    "--val_csv",
+    "D:/ViP-MH/Data/Train_Data/complete_data/DR/reddit_valid.csv",
+    "--test_csv",
+    "D:/ViP-MH/Data/Test_Data/test_complete/DR.csv",
+    "--epochs",
+    "100",
+    "--batch_size",
+    "128",
+    "--lr",
+    "1e-4",
+    "--name",
+    "reddit_depression_run",
+    "--save_dir",
+    "./saved_redditdr/"
+  ],
+  "program":  "D:\\ViP-MH\\DR.py",
+  "codePath":  "DR.py",
+  "codePathLocal":  "DR.py",
+  "git":  {
+    "remote":  "https://github.com/praetorian2710/ViP-MH.git",
+    "commit":  "1ae15b67ef3549873371be85c6fa7334fe5fb7e9"
+  },
+  "email":  "fantomobsant@gmail.com",
+  "root":  "D:\\ViP-MH",
+  "host":  "jotiraditya",
+  "executable":  "C:\\Users\\fanto\\miniconda3\\python.exe",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce GTX 1650",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "293625393152",
+      "used":  "106224287744"
+    }
+  },
+  "memory":  {
+    "total":  "16473231360"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce GTX 1650",
+      "memoryTotal":  "4294967296",
+      "cudaCores":  896,
+      "architecture":  "Turing",
+      "uuid":  "GPU-19e56e2a-f56e-c4f4-691a-d22292992384"
+    }
+  ],
+  "cudaVersion":  "12.6",
+  "writerId":  "lv6gwscud0s7he2zj6s115k17agy9tqf"
+}
